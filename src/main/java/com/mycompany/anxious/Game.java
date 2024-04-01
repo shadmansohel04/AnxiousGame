@@ -2,7 +2,7 @@ package com.mycompany.anxious;
 
 import java.util.ArrayList;
 import java.util.Random;
-import javafx.scene.control.Alert;
+
 
 public class Game {
     private int shots;
