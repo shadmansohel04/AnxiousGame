@@ -72,7 +72,7 @@ public class Player {
                 medicine = 9;
                 break;
             case 2:
-                poison = 3;
+                poison = 5;
                 steroid = 7;
                 medicine = 9;
                 break;
@@ -143,6 +143,10 @@ public class Player {
     
     public void addSanity(int number){
         sanity += number;
+    }
+    
+    public void setSanity(int number){
+        sanity = number;
     }
     
     public void setOpponent(Player person){

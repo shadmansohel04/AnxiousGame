@@ -138,7 +138,8 @@ public class App extends Application {
         // Styling the list views
         p1Items.setStyle("-fx-control-inner-background: #2f2f2f; -fx-text-fill: white;");
         p2Items.setStyle("-fx-control-inner-background: #2f2f2f; -fx-text-fill: white;");
-
+        
+        scene.getStylesheets().add("Styles.css");
         // Styling the scene
         scene.setFill(Color.BLACK);
         

@@ -75,6 +75,15 @@ public class Game {
         for(int i = 0; i < 3; i++){
             bullets.add("Real");
         }
+        if(round > 1){
+            if(p1.getSanity() < 3){
+                p1.setSanity(3);
+            }
+
+            if(p2.getSanity() < 3){
+                p2.setSanity(3);
+            }
+        }
         round ++;
     }
     
